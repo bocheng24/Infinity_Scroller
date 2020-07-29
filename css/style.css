@@ -17,8 +17,9 @@ body {
     margin-bottom: 1.5rem;
     text-transform: uppercase;
     letter-spacing: 2.1px;
+    font-size: 40px;
+    color: #8e44ad;
 }
-
 
 .loader img {
     position: absolute;
@@ -26,3 +27,27 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+.img-container {
+    width: 60%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.img-container img {
+    width: 100%;
+    margin-top: 10px;
+}
+
+
+@media screen and (max-width: 900px) {
+    #main-title {
+        font-size: 29px;
+    }
+
+    .img-container {
+        width: 97%
+    }
+}
+
