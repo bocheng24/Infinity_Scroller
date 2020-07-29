@@ -1,0 +1,1 @@
+Download customized spinner from loading.io
